@@ -26,7 +26,7 @@ namespace Snake
             Console.WriteLine("   p1=p2 p1 ---> " + p1.x + "  " + p1.y);
             Console.WriteLine("   p1=p2 p2 ---> " + p2.x + "  " + p2.y);
 
-            p2.x = 8; // p1.x = 8; для экперемента можно и эти координаты
+            p2.x = 77; // p1.x = 8; для экперемента можно и эти координаты
             p2.y = 8; // p2.y = 6; меняет координаты обоих Point
 
             Console.WriteLine(" ");
