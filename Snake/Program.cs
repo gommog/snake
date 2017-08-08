@@ -40,7 +40,7 @@ namespace Snake
             Console.WriteLine("p1 = p2. p1.x = " + p1.x + "p1.y = " + p1.y + ", p2.x = " + p2.x + ", p2.y = " + p2.y);
 
             p1 = new Point(1, 1, '*');
-            //Update(p1);
+            Update(p1);
             Console.WriteLine("Call Update. p1.x = " + p1.x + ", p1.y = " + p1.y);
 
             Console.ReadLine();
@@ -63,6 +63,14 @@ namespace Snake
             p.y += dy;
         }
 
+        public static void Reset (Point p)
+        {
+            p = new Point();
+        }
 
+        public static void Update (Point p)
+        {
+
+        }
     }
 }
