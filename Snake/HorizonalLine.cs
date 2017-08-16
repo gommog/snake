@@ -21,5 +21,13 @@ namespace Snake
             sym = _sym;
         
         }
+
+        public  void DrawHorLine()
+        {
+            for (int i = x_begin; i <= x_end i++)
+            {
+                Point                               
+            }
+        }
     }
 }

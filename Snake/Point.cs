@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Snake
 {
-    class Point
+     class Point
     {
         public int x;
         public int y;
@@ -23,12 +23,8 @@ namespace Snake
             sym = _sym;
         }
 
-        public void Draw()
+        public void DrawHorizontalLine()
         {
-
-            Console.SetCursorPosition(x, y);
-            Console.Write(sym);
-
 
         }
 
